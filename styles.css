@@ -1,0 +1,71 @@
+/* Global */
+/*color scheme
+black- #5D5C61
+grey-379683
+teal-#7397AE
+BLUE- #557A95
+YELLOW-#B1A296
+
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #557A95 ;
+    
+}
+body
+{
+   
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    
+    font-family: Arial, Helvetica;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #B1A296;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}
+.frontPhoto{
+    padding: 50px 50px;
+    padding-left: 20%;
+    height: 300px;  
+}
+.about{
+    padding: 50px 50px;
+    height: 300px;  
+    padding-left: 20%;
+    font-size: 20px;
+
+}
+.light{
+    font-weight: 300;
+    size: 18px;
+}
+.nameline{
+    font-size: 80px;
+}
